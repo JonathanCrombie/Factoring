@@ -5,7 +5,7 @@ Factoring Repository
 Introduction
 ------------
 
-Just a varied bunch of programs that either directly factor numbers or assist with
+Just a varied bunch of programs that either directly factors numbers or assists with
 the process.
  
 
