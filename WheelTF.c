@@ -6,7 +6,7 @@
 
 /* To compile, the GMP library needs to be already installed.                */
 /* See https://gmplib.org                                                    */
-/* On linux, try:  gcc WheelTF.cpp -lgmp -o WheelTF                          */
+/* On linux, try:  cc WheelTF.c -lgmp -o WheelTF                             */
 
 
 /* The maximum integer we attempt to trial factor is hard-coded to approx.   */
