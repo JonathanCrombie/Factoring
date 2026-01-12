@@ -6,7 +6,7 @@
 
 /* To compile, the GMP library needs to be already installed.                */
 /* See https://gmplib.org                                                    */
-/* On linux, try:  g++ rho.cpp -lgmp -o rho                                  */
+/* On linux, try:  cc rho.c -lgmp -o rho                                     */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -72,6 +72,7 @@ int main( int argc , char * argv[] ) {
   mpz_clear( d );
   mpz_clear( y );
   mpz_clear( x );
+  mpz_clear( n );
 
   return 0;
  }
