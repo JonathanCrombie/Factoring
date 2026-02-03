@@ -16,7 +16,7 @@ Contents
 * fermat.c -- Super simple implementation of Fermat's factoring algorithm.
 * rho.c -- Super simple implementation of Pollard's Rho factoring algorithm.
 * eratosthenes.c -- Straightforward implementation of the Sieve of Eratosthenes with 1 bit per number.
-
+* prime_range.c -- Print a range of prime numbers.
 
 License
 -------
