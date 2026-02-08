@@ -85,14 +85,11 @@ int main( int argc, char * argv[] ) {
   }
 
   // Print out the primes
-  int64_t number = 0L;
   for (i = begin; i <= end; i++) {
     quot = i >> 5;
     rem = i & 0x0000001F;
-    if (!(mask[rem] & array[quot])) {
-      number = quot * 32L + rem; 
-      printf( "%ld\n", number );
-    }
+    if (!(mask[rem] & array[quot]))
+      printf( "%ld\n", i );
   }
 
   if ( array != NULL ) {
